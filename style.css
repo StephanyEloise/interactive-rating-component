@@ -112,10 +112,6 @@ p {
 }
 
 .img-thanks {
-    width: 162px;
-    height: 108px;
-    margin-left: 103px;
-    margin-right: 97px;
     margin-top: 13px;
     margin-bottom: 32px;
 }
@@ -131,17 +127,22 @@ p {
     height: 32px;
     border-radius: 22.5px;
     background-color: #262E38;
-    margin-right: 109px;
-    margin-left: 103px;
+}
+
+#screen2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-page2 { 
-    margin-left: 103px;
+    color: #FFF;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 32px;
 }
 
 .score-text {
     text-align: center;
-    margin-top: 7px;
-    margin-bottom: 45px;
-    
 }
